@@ -1,0 +1,141 @@
+
+body {
+    font-family:'Courier New', Courier, monospace;
+}
+.header{
+    font-size: medium;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding:10px;
+    border: 10px;
+
+}
+.flex-container-bdt{
+    display: flex;
+    justify-content: center;
+    
+}
+.bangun-datar{
+    background-color: palevioletred;
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-align: center;
+    width: 90%;
+    padding:10px;
+    border: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    
+}
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    
+}
+
+.Luas-flex{
+    background-color:palevioletred;
+    border: none;
+    color:white;
+    width: 40%;
+    padding: 15px 32px;
+    text-align:center;
+    border-radius: 12px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.Keliling-flex{
+    background-color:palevioletred;
+    border: none;
+    color:white;
+    width: 40%;
+    padding: 15px 32px;
+    text-align:center;
+    border-radius: 12px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.hdr-luas{
+    background-color: rosybrown;
+    width: 95%;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+img { display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.rumus-luas {
+    margin:20px;
+    text-align: justify;
+    margin-inline-start: 42%;}
+
+.hdr-keliling{
+    background-color: rosybrown;
+    width: 95%;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+.input-selection{
+    text-align: start;
+    margin: 20px;
+    border:50px;
+
+
+}
+.triangle {
+width: 100%;
+padding: 12px 20px;
+margin: 8px 0;
+border: 2px ridge;
+border-radius: 4px;
+box-sizing: border-box;
+}
+.flex-container-result{
+    display:flex;
+    justify-content: center;
+
+}
+.counting-button{
+    cursor: pointer;
+    color: white;
+    background-color: turquoise;
+    margin: 20px;
+    border: black 2px;
+    padding: 15px 27px;
+    text-align:center;
+    border-radius: 12px;
+    
+}
+
+.counting-button:hover {background-color: lightseagreen;
+button :active {transform: translateY(1px);
+background-color: lightseagreen;}}
+
+.reset-button{
+    cursor: pointer;
+    color: white;
+    background-color: orange;
+    margin: 20px;
+    border: black 2px;
+    padding: 15px 27px;
+    text-align:center;
+    border-radius: 12px;
+    
+}
+
+.reset-button:hover {background-color:lightsalmon;
+    button :active {transform: translateY(1px);
+    background-color:lightsalmon;}}
+    
+
